@@ -16,6 +16,3 @@ __pycache__/
 # Windows
 Thumbs.db
 
-# Model checkpoints (if not needed)
-*.h5
-*.pkl
