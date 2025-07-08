@@ -1,0 +1,21 @@
+# Ignore virtual environments
+clean-env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Model checkpoints (if not needed)
+*.h5
+*.pkl
