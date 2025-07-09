@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.12.0
-scikit-learn>=1.0
+tensorflow
+scikit-learn
 joblib
 numpy
