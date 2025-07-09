@@ -2,6 +2,8 @@
 
 This project is a complete machine learning pipeline for classifying gamma-ray and hadron signals using real-world astronomical data from the **MAGIC Telescope**. It compares multiple classification algorithms including traditional ML models and a neural network built using TensorFlow.
 
+<img src="images/1.png" width="800" alt="image 1" />
+<img src="images/2.png" width="800" alt="image 1" />
 ---
 
 ## 📁 Dataset
