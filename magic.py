@@ -3,9 +3,9 @@
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # type: ignore
 from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import RandomOverSampler
+from imblearn.over_sampling import RandomOverSampler # type: ignore
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report
 from sklearn.naive_bayes import GaussianNB
