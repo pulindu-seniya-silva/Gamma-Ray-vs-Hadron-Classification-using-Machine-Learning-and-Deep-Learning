@@ -1,7 +1,14 @@
 # 🔭 Gamma Ray vs Hadron Classification using Machine Learning and Deep Learning
 
-This project is a complete machine learning pipeline for classifying gamma-ray and hadron signals using real-world astronomical data from the **MAGIC Telescope**. It compares multiple classification algorithms including traditional ML models and a neural network built using TensorFlow.
+This project is a complete machine learning pipeline for classifying gamma-ray and hadron signals using real-world astronomical data from the 
 
+**MAGIC Telescope**. It compares multiple classification algorithms including traditional ML models and a neural network built using TensorFlow.
+
+**Model training repository**: https://github.com/pulindu-seniya-silva/magic-dataset-Machine-Learning/blob/main/Magic.ipynb
+
+
+<img src="images/1.png" width="800" alt="image 1" />
+<img src="images/2.png" width="800" alt="image 1" />
 ---
 
 ## 📁 Dataset
@@ -11,6 +18,7 @@ This project is a complete machine learning pipeline for classifying gamma-ray a
 - **Features**:
   - `fLength`, `fWidth`, `fSize`, `fConc`, `fConcl`, `fAsym`, `fM3Long`, `FM3Trans`, `fAlpha`, `fDist`
   - `class`: `"g"` (gamma ray) or `"h"` (hadron) → converted to `1` and `0`
+- **Model training repository**: https://github.com/pulindu-seniya-silva/magic-dataset-Machine-Learning/blob/main/Magic.ipynb
 
 ---
 
