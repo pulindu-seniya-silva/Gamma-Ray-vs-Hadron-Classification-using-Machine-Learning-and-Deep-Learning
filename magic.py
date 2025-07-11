@@ -139,12 +139,12 @@ print("🔍 Final Neural Network Performance:")
 print(classification_report(y_test, y_pred))
 
 # ✅ Save the model properly (Keras format)
-least_loss_model.save("model.h5")
+#least_loss_model.save("model.h5")
 
 # ✅ Save the scaler
-scaler = StandardScaler()
-scaler.fit(train[cols[:-1]])
-joblib.dump(scaler, "scaler.pkl")
+#scaler = StandardScaler()
+#scaler.fit(train[cols[:-1]])
+#joblib.dump(scaler, "scaler.pkl")
 
-print("✅ Keras model saved as model.h5")
-print("✅ Scaler saved as scaler.pkl")
+#print("✅ Keras model saved as model.h5")
+#print("✅ Scaler saved as scaler.pkl")
