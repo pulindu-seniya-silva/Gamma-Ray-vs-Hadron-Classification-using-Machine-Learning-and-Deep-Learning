@@ -5,7 +5,12 @@ import tensorflow as tf
 # For traditional ML model (e.g. Logistic Regression) saved with joblib:
 import joblib
 # Load Keras model correctly
-model = tf.keras.models.load_model("model.h5", compile=False)
+@st.cache_resource
+def load_model():
+    return tf.keras.models.load_model("model.h5")
+
+model = load_model()
+
 scaler = joblib.load("scaler.pkl")
 
 
