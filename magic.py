@@ -137,14 +137,3 @@ y_pred = least_loss_model.predict(X_test)
 y_pred = (y_pred > 0.5).astype(int).reshape(-1,)
 print("🔍 Final Neural Network Performance:")
 print(classification_report(y_test, y_pred))
-
-# ✅ Save the model properly (Keras format)
-joblib.dump(least_loss_model, "model.h5")
-
-# ✅ Save the scaler
-scaler = StandardScaler()
-scaler.fit(train[cols[:-1]])
-joblib.dump(scaler, "scaler.pkl")
-
-#print("✅ Keras model saved as model.h5")
-#print("✅ Scaler saved as scaler.pkl")
