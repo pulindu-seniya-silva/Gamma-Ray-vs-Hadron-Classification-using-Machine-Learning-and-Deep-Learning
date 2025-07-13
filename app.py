@@ -52,7 +52,7 @@ if submitted:
     
     try:
         X_scaled = scaler.transform(X)
-        st.write("🔍 **Scaled input:**", X_scaled)
+      #  st.write("🔍 **Scaled input:**", X_scaled)
         st.write("🧾 **Raw input:**", X)
         
         prediction = model.predict(X_scaled)[0][0]
